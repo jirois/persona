@@ -279,7 +279,7 @@ p {
   /* z-index: -450; */
   right: 0rem;
   background: url(./image/omas_ajiri.jpg);
-  background-position: 50% 50%;
+  background-position: -30% 50%;
   background-repeat: no-repeat;
 }
 
@@ -287,7 +287,7 @@ p {
 }
 .hero-text {
   position: absolute;
-  top: 19rem;
+  top: 12rem;
   padding: 1rem 4rem;
   margin-top: 4rem;
 }
@@ -328,7 +328,7 @@ p {
 @media screen and (min-width: 800px) {
   .hero::before {
     top: 0;
-    background-position: 200% 50%;
+    background-position: 100% 50%;
   }
   .hero-text {
     margin-top: 1rem;
@@ -346,6 +346,11 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .hero::before {
+    background-position: 100% 50%;
+  }
+}
 footer {
   position: absolute;
   bottom: 0;
