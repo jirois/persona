@@ -19,8 +19,8 @@ function Hero(){
                 'I am a Pharmacist turned a Software Developer',
                 'I have a strong knowledge in web development',
             'As well as mobile app development.']}
-                typeSpeed={40}
-                backSpeed={50} 
+                typeSpeed={80}
+                backSpeed={40} 
                 // loop
                 />
                 <div className="btn-container">
