@@ -16,8 +16,8 @@ function Hero(){
                 <Typed 
                 className="skills-text"
                strings={["Hi there, I'm Omas Ajiri.",
-                'I am a Pharmacist turned a Software Developer',
-                'I have a strong knowledge in web development',
+                'I am a Software Developer',
+                'My specialty is web development',
             'As well as mobile app development.']}
                 typeSpeed={80}
                 backSpeed={40} 
